@@ -1,0 +1,273 @@
+@keyframes translate {
+  0%{ transform: translateX(-8px); }
+  50%{ transform: translateX(8px); }
+  100%{ transform: translateX(-8px); }
+}
+
+#bottomButton{
+animation: translate 4s infinite;
+}
+
+#middleButton{
+animation: translate 6s infinite;
+}
+
+#highButton{
+animation: translate 5s infinite;
+}
+
+
+
+
+@keyframes rotate {
+  0%{ transform: rotate(150deg); }
+  50%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(150deg); }
+}
+
+#leftNeedle{
+transform-origin: 385.03px 197.59px;
+animation: rotate 5s infinite;
+}
+
+#middleNeedle{
+transform-origin: 405.83px 197.59px;
+animation: rotate 3s infinite;
+}
+
+#littleLeftNeedle{
+transform-origin: 348.11px 278.91px;
+animation: rotate 3s infinite;
+}
+
+#littleMiddleNeedle{
+transform-origin: 361.57px 278.91px;
+animation: rotate 3s infinite;
+}
+
+
+
+
+@keyframes rotateRightNeedle {
+  0%{ transform: rotate(-150deg); }
+  50%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(-150deg); }
+}
+
+#rightNeedle{
+transform-origin: 426.64px 197.59px;
+animation: rotateRightNeedle 8s infinite;
+}
+
+#littleRightNeedle{
+transform-origin: 375.04px 278.91px;
+animation: rotateRightNeedle 3s infinite;
+}
+
+@keyframes leftPliers {
+  0%{ transform: rotate(50deg); }
+  50%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(50deg); }
+}
+
+#leftPliers{
+transform-origin: 123.25px 252.667px;
+animation: leftPliers 3s infinite;
+}
+
+#leftPic{
+transform-origin: 166.482px 253.724px;
+animation: leftPliers 4s infinite;
+}
+
+@keyframes rightPliers {
+  0%{ transform: rotate(-50deg); }
+  50%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(-50deg); }
+}
+
+#rightPliers{
+transform-origin: 123.25px 252.667px;
+animation: rightPliers 3s infinite;
+}
+
+#rightPic{
+transform-origin: 166.482px 253.724px;
+animation: rightPliers 4s infinite;
+}
+
+
+
+@keyframes arms {
+  0%{ transform: scaleY(1) }
+  50%{ transform: scaleY(0.87)  }
+  100%{ transform: scaleY(1) }
+}
+
+#leftArms{
+  animation: arms 5s infinite;
+}
+
+
+@keyframes rightArms {
+  0%{ transform: scaleY(1) }
+  50%{ transform: scaleY(0.9)  }
+  100%{ transform: scaleY(1) }
+}
+
+
+#bottomArms, #highArms, #middleArms{
+  animation: rightArms 3s infinite;
+}
+
+
+
+@keyframes valve {
+  0%{ transform: rotate(30deg); }
+  50%{ transform: rotate(0deg);  }
+  100%{ transform: rotate(30deg); }
+}
+
+#middleValve {
+  transform-origin: 189.65px 316.04px;
+  animation: valve 3s infinite;
+}
+
+#leftValve{
+  transform-origin: 182.09px 316.04px;
+  animation: valve 3s infinite;
+}
+
+#rightValve{
+  transform-origin: 197.21px 316.04px;
+  animation: valve 3s infinite;
+}
+
+@keyframes yellowExt {
+  0%{ fill: #F78700 }
+  33%{  fill: #FCC947  }
+  66%{ fill: #FFF685 }
+  100%{ fill: #F78700 }
+}
+
+#yellow3{
+  animation: yellowExt 1s infinite;
+}
+
+@keyframes yellowMid {
+  0%{ fill: #FCC947  }
+  33%{  fill: #FFF685 }
+  66%{ fill: #F78700  }
+  100%{ fill: #FCC947  }
+}
+
+#yellow2{
+  animation: yellowMid 1s infinite;
+}
+
+@keyframes yellowInt {
+  0%{ fill: #FFF685  }
+  33%{  fill: #F78700}
+  66%{ fill: #FFF685   }
+  100%{ fill: #FFF685  }
+}
+
+#yellow1{
+  animation: yellowInt 1s infinite;
+}
+
+
+@keyframes redExt {
+  0%{ fill: #E82A2A  }
+  33%{  fill: #FF9E88  }
+  66%{ fill: #F96948 }
+  100%{ fill: #E82A2A  }
+}
+
+#red3{
+  animation: redExt 1s infinite;
+}
+
+@keyframes redMid {
+  0%{ fill: #F96948  }
+  33%{  fill: #FF9E88 }
+  66%{ fill: #E82A2A   }
+  100%{ fill: #F96948  }
+}
+
+#red2{
+  animation: redMid 1s infinite;
+}
+
+@keyframes redInt {
+  0%{ fill: #FF9E88  }
+  33%{  fill: #E82A2A }
+  66%{ fill: #F96948   }
+  100%{ fill: #FF9E88 }
+}
+
+#red1{
+  animation: redInt 1s infinite;
+}
+
+
+@keyframes squareRed {
+  0%{ fill: #E82A2A  }
+  50%{ fill: #F96948}
+  100%{ fill: #E82A2A }
+}
+
+#squareRed{
+  animation: squareRed 1.5s infinite;
+}
+
+@keyframes squareOrange {
+  0%{ fill: #F96948 }
+  50%{ fill: #E82A2A }
+  100%{ fill: #F96948 }
+}
+
+#squareOrange{
+  animation: squareOrange 2s infinite;
+}
+
+@keyframes squarePink {
+  0%{ fill: #FF9E88}
+  50%{ fill: #F96948 }
+  100%{ fill: #FF9E88}
+}
+
+#squarePink{
+  animation: squarePink 2.5s infinite;
+}
+
+@keyframes circleOrange {
+  0%{ fill: #F96948}
+  50%{ fill: #E82A2A }
+  100%{ fill: #F96948}
+}
+
+#circleOrange{
+  animation: circleOrange 2.5s infinite;
+}
+
+
+@keyframes circleYellow {
+  0%{ fill: #FCC947}
+  50%{ fill: #F96948 }
+  100%{ fill: #FCC947}
+}
+
+#circleYellow2{
+  animation: circleYellow 2.5s infinite;
+}
+
+@keyframes circleYellowOne {
+  0%{ fill: #FFF685}
+  50%{ fill: #FCC947 }
+  100%{ fill: #FFF685}
+}
+
+#circleYellow1{
+  animation: circleYellowOne 2.5s infinite;
+}
